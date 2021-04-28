@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	    <style>
+          #bg-block {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            min-width: 100%;
+            min-height: 100%;
+            background: url('images/12.jpg') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -webkit-filter: blur(5px);
+         }
+      </style>
+</head>
+<body>
+    <div id="bg-block">
+         </div>
+	  
+            <div class="char" id="one" >
+               <img src="images/22.jpg" style="opacity: 1; -webkit-filter: blur(0px);" data-0="opacity: 0;-webkit-filter: blur(0px);" data-50="opacity: 1;-webkit-filter: blur(0px);" data-200="opacity: 0.5;-webkit-filter: blur(5px);" class="skrollable skrollable-between">
+            </div>
+      	  
+            <div class="char skrollable " id="two" style=" opacity: 1;" data-100="opacity: 0.5;left: -1200px;-webkit-filter: blur(4px);" data-400="opacity: 0.8;left: -700px;-webkit-filter: blur(2px);" data-700="opacity: 1;left: 300px;-webkit-filter: blur(0px);"data-1000="opacity: 0.8;left: 400px;-webkit-filter: blur(2px);" data-1300="opacity: 0;left: 600px;-webkit-filter: blur(5px);">
+               <img src="images/23.jpg">
+            </div>
+            <div class="char skrollable " id="three" style=" opacity: 1;" data-400="opacity: 0.5;left: -1200px;-webkit-filter: blur(4px);" data-700="opacity: 0.8;left: -700px;-webkit-filter: blur(2px);" data-1000="opacity: 1;left: 300px;-webkit-filter: blur(0px);"data-1300="opacity: 0.8;left: 400px;-webkit-filter: blur(2px);" data-1600="opacity: 0;left: 600px;-webkit-filter: blur(5px);">
+               <img src="images/20.jpg" >
+            </div>
+            <div class="char skrollable skrollable-before" id="four" style=" opacity: 1;" data-700="opacity: 0.5;left: -1200px;-webkit-filter: blur(4px);" data-1000="opacity: 0.8;left: -700px;-webkit-filter: blur(2px);" data-1300="opacity: 1;left: 300px;-webkit-filter: blur(0px);"data-1600="opacity: 0.8;left: 400px;-webkit-filter: blur(2px);" data-1900="opacity: 0;left: 600px;-webkit-filter: blur(5px);">
+               <img src="images/24.jpg" >
+            </div>
+             <div class="char" id="logo" >
+               <img src="images/13.jpg" style="opacity: 1; -webkit-filter: blur(5px);" data-1300="opacity: 0;-webkit-filter: blur(5px);"data-1600="opacity: 1;-webkit-filter: blur(0px);"  data-1800="opacity: 0.6;-webkit-filter: blur(5px);" class="skrollable skrollable-between">
+            </div>
+
+
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+      <script src="js/skrollr.min.js"></script>
+      <script src="js/skrollr.js"></script>
+      <script type="text/javascript">
+      var skrollr_obj = skrollr.init();
+      </script>
+      
+</body>
+</html>
